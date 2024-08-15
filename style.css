@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b3b7c9;
+    margin:0;
+    padding:0;
+}
+.container{
+max-width: 500px;
+margin:50px auto;
+background:white;
+padding:50px;
+box-shadow: 0px,0px,10px rgba(0, 0, 0, 0.1);
+}
+h1{
+    text-align: center;
+}
+
+input[type="text"]{
+    width:calc(100%-100px);
+    padding:10px;
+    margin:10px;
+
+}
+button{
+    padding:20px;
+    margin: 10px;
+}
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completed{
+    text-decoration: line-through;
+    color:rgb(136, 135, 135);
+}
+
+button.remove{
+    background-color: red;
+    color:rgb(16, 34, 202);
+    border:none;
+    padding:5px 10px;
+}
+
